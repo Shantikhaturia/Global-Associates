@@ -103,7 +103,7 @@ ul {
 }
 
 p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 25px;
   color: #777;
 }
@@ -189,12 +189,12 @@ a.main-filled-button:hover {
 a.main-button-icon {
   font-size: 16px;
   border-radius: 25px;
-  padding: 13px 25px;
-  background-color: #004085;
+  padding: 10px 20px;
+  background-color: #ff7f00;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 800;
+  letter-spacing: 2px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -267,10 +267,10 @@ button.main-button-icon:hover i {
 
 a.text-button-icon {
   text-transform: uppercase;
-  color: #1e1e1e;
-  font-size: 13px;
+  color: #f17e00;
+  font-size: 15px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -330,7 +330,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #dc3545!important;
+  color: #f17e00!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -343,8 +343,8 @@ header
 
 .header-area {
   position: absolute;
-  top: -10px;
-  left: -25px;
+  top: -18px;
+  left: 0px;
   right: 0px;
   z-index: 100;
   height: 100px;
@@ -360,9 +360,9 @@ header
 }
 
 .header-area .main-nav .logo {
-  line-height: 130px;
+  line-height: 100px;
   color: #3f40a3;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -434,7 +434,7 @@ header
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   height: 40px;
-  line-height: 92px;
+  line-height: 65px;
   border: transparent;
   letter-spacing: 1px;
 }
@@ -468,8 +468,8 @@ header
   font-size: 12px;
   color: #fff;
   position: absolute;
-  right: 18px;
-  top: 12px;
+  right: 16px;
+  top: 0px;
 }
 
 .background-header .main-nav .nav li.submenu:after {
@@ -641,7 +641,7 @@ header
   background-color: #1e1e1e;
 }
 .sub-header-dashboard {
-  margin-top: 100px;
+  margin-top: 55px;
 }
 .header-area.header-sticky {
   min-height: 80px;
@@ -795,7 +795,7 @@ banner
 }
 .img-center {
   width: 100%;
-  height: 520px;
+  height: 500px;
 }
 *,
 *:before,
@@ -884,7 +884,7 @@ banner
   width: 40px;
   height: 40px;
   text-align: center;
-  line-height: 60px;
+  line-height: 40px;
   border-radius: 50%;
   color: #fff;
   box-shadow: 0px 15px 10px rgba(0,0,0,0.1);
@@ -966,7 +966,7 @@ about
 */
 
 #about {
-  padding: 100px 0px 0px 0px;
+  padding: 85px 0px 0px 0px;
   position: relative;
   z-index: 9;
 }
@@ -981,7 +981,7 @@ about
 }
 
 #about .section-heading h6 {
-  color: #5fb759;
+  color: #ff7f00;
 }
 
 #about .service-item {
@@ -996,7 +996,7 @@ about
 }
 
 #about .service-item h4 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.25px;
@@ -1005,7 +1005,7 @@ about
 
 #about a.main-button-icon {
   display: inline-block;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 #about .right-text-content {
@@ -1013,8 +1013,8 @@ about
 }
 
 #about .right-text-content p {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 35px;
   color: #1e1e1e;
 }
 
@@ -1268,19 +1268,19 @@ contact
 }
 
 #contact-us .section-heading h6 {
-  color: #5fb759;
+  color: #ff7f00;
 }
 
 #contact-us .left-text-content ul li {
   margin-bottom: 20px;
-  margin-right: -740px;
+  margin-right: -250px;
 }
 
 #contact-us .left-text-content ul li {
   font-size: 20px;
   font-weight: 600;
-  letter-spacing: 1.5px;
-  font-family: monospace;
+  letter-spacing: 2px;
+  font-family: ui-monospace;
 }
 
 #contact-us .left-text-content ul li img {
@@ -1347,7 +1347,7 @@ footer
 footer {
   padding: 10px 0px;
   background: rgb(51,155,158);
-  background: linear-gradient(145deg, rgba(51,155,158,1) 0%, rgba(104,204,152,1) 100%);
+  background: linear-gradient(145deg, #007bff 0%, #004085 100%);
 }
 
 footer .left-text-content p {
@@ -1365,7 +1365,7 @@ footer .right-text-content {
 
 footer .right-text-content p {
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   margin-right: 15px;
   text-transform: uppercase;
 }
@@ -1415,7 +1415,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #339b9e 0%, #68cc98 100%);
+  background-image: linear-gradient(145deg, #339b9e 0%, #4274a7 100%);
   left: 0;
   right: 0;
   top: 0;
@@ -1448,18 +1448,18 @@ preloader
   opacity: 0;
   width: 50px;
   height: 50px;
-  -webkit-animation: jumper 1s 0s linear infinite;
-  animation: jumper 1s 0s linear infinite;
+  -webkit-animation: jumper .5s 0s linear infinite;
+  animation: jumper .5s 0s linear infinite;
 }
 
 #preloader .jumper > div:nth-child(2) {
-  -webkit-animation-delay: 0.33333s;
-  animation-delay: 0.33333s;
+  -webkit-animation-delay: 0.16665s;
+  animation-delay: 0.16665s;
 }
 
 #preloader .jumper > div:nth-child(3) {
-  -webkit-animation-delay: 0.66666s;
-  animation-delay: 0.66666s;
+  -webkit-animation-delay: 0.33333s;
+  animation-delay: 0.33333s;
 }
 
 @-webkit-keyframes jumper {
